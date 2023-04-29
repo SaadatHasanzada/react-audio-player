@@ -74,16 +74,14 @@ input[type=range]::-moz-range-thumb {
    border: none;
   }
   
-  /* All the same stuff for IE */
   input[type=range]::-ms-thumb {
     height: 15px;
     width: 15px;
     border-radius: 3px;
     background:transparent;
    border: none;
-  } */
+  } 
   
-  /* Input Thumb */
  
 
 .audio--start,.audio--end{
