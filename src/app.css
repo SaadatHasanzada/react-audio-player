@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    width: 100%;
+   align-items: flex-start;
+}
+.content--body{
+    width: 65%;
+    transform: translateX(-20%);
+}
+.headerStyle{
+    transform: translateX(0);
+  }

@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+ 
+  }
+  
+  .header--span,.header--button{
+    font-weight: bold;
+  }
+  .header--button{
+    background-color: white;
+    padding: .5rem;
+    cursor: pointer;
+  }
+  .header--button.click{
+    background-color: rgb(64, 63, 63);
+    color: white;
+  }

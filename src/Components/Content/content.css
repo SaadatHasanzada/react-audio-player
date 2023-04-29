@@ -1,0 +1,91 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.content--img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1.3rem;
+}
+.content--title{
+    font-size: 1.5rem;
+    color: rgb(72, 67, 67);
+    margin-bottom:.8rem;
+}
+.content--name{
+    color:rgb(132, 132, 132);
+}
+.controls{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 12rem;
+ 
+}
+.controls i{
+    cursor: pointer;
+}
+.audio--player{
+display:flex;
+width: 75%;
+gap:1.5rem;
+margin-top: 1.2rem;
+justify-content: center;
+}
+.audio--bar{
+    width: 80%;
+}
+/********** Range Input Styles **********/
+/*Range Reset*/
+
+ 
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    outline: 0;
+    background: #ccc;
+}
+
+
+
+
+ input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    background:transparent;
+   border: none;
+  }
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    background:transparent;
+   border: none;
+  }
+  
+  /* All the same stuff for IE */
+  input[type=range]::-ms-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    background:transparent;
+   border: none;
+  } */
+  
+  /* Input Thumb */
+ 
+
+.audio--start,.audio--end{
+    font-weight: normal;
+}
